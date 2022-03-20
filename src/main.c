@@ -16,7 +16,7 @@
 #include "psxcontroller.h"
 #include "nofrendo.h"
 #include "menu.h"
-// #include "esp_bt.h"
+//#include "esp_bt.h"
 
 #define READ_BUFFER_SIZE 64
 
@@ -192,7 +192,7 @@ esp_err_t registerSpiffs()
 
 int app_main(void)
 {
-// esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT);
+    //esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT);
 #ifdef CONFIG_SD_CARD
 	ASSERT_ESP_OK(registerSdCard(), "Unable to register SD Card");
 #else

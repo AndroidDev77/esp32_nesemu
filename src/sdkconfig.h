@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Espressif IoT Development Framework Configuration
+ * Espressif IoT Development Framework Configurationnn
  *
  */
 #define CONFIG_GATTC_ENABLE 1
